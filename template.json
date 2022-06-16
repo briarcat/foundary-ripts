@@ -57,15 +57,53 @@
     }
   },
   "Item": {
-    "types": ["weapon", "armour", "equipment"],
+    "types": [
+      "weapon",
+      "armour",
+      "equipment"
+    ],
     "templates": {
       "itemInformation": {
         "name": "",
         "description": ""
       }
     },
-    "weapon" : {
-      "templates": ["itemInformation"]
+    "weapon": {
+      "templates": [
+        "itemInformation"
+      ],
+      "range": "close",
+      "tags": [
+        "thermal",
+        "area",
+        "slow"
+      ],
+      "ammo": ""
+    },
+    "armour": {
+      "templates": [
+        "itemInformation"
+      ],
+      "attributes": {
+        "kinetic": {
+          "value": "2d4"
+        },
+        "energy": {
+          "value": "1d6"
+        },
+        "chemical": {
+          "value": "0"
+        },
+        "thermal": {
+          "value": "2d4"
+        },
+        "plasma": {
+          "value": "1d4"
+        },
+        "psionic": {
+          "value": "0"
+        }
+      }
     }
   }
 }

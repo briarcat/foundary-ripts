@@ -1,0 +1,39 @@
+{
+  "riptsLang": {
+    "general": {
+      "rangeTags": {
+        "close": "Close",
+        "nearby": "Nearby",
+        "faraway": "Far Away"
+      },
+      "damageTypes": {
+        "kinetic": "Kinetic",
+        "energy": "Energy",
+        "chemical": "Chemical",
+        "thermal": "Thermal",
+        "plasma": "Plasma",
+        "psionic": "Psionic"
+      },
+      "outOfActionTypes": {
+        "level2": "Coma",
+        "level3": "Scarred",
+        "level4": "Fat Head",
+        "level5": "KO'd",
+        "level6": "Cracked Bones",
+        "level7": "Badly Maimed",
+        "level8": "Dead"
+      }
+    },
+    "items": {
+      "information": {
+        "name": "Name",
+        "description": "Description"
+      },
+      "weapons": {
+        "range": "Range Type",
+        "tags": "Tags",
+        "ammo": "Ammo Type"
+      }
+    }
+  }
+}

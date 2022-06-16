@@ -1,8 +1,11 @@
-import RIPItemSheet from "./module/sheets/RIPItemSheet";
+import {ripts} from "./module/config.js"
+import RIPItemSheet from "./module/sheets/RIPItemSheet.js";
 
-Hooks.once("init", function(){
-   console.log("ripts | Initializing RIP The Stars System");
+Hooks.once("init", function () {
+    console.log("ripts | Initializing RIP The Stars System");
 
-   Items.unregisterSheet("core", ItemSheet);
-   Items.registerSheet("ripts", RIPItemSheet, { makeDefault: true});
+    CONFIG.ripts = ripts;
+
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("ripts", RIPItemSheet, {makeDefault: true});
 });
