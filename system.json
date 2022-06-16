@@ -11,7 +11,7 @@
     "ripts.js"
   ],
   "styles": [
-    "ripts.css"
+    "less/ripts.css"
   ],
   "packs": [],
   "languages": [
