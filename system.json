@@ -1,0 +1,22 @@
+{
+  "name": "foundry-ripts",
+  "title": "RIP The Stars",
+  "description": "A system for playing RIP The Stars in Foundry VTT.",
+  "author": "Lallycat",
+  "version": 0.01,
+  "minimumCoreVersion": "9.269",
+  "compatibleCoreVersion": "9",
+  "url": "https://github.com/briarcat/foundry-ripts/",
+  "esmodules": [
+    "ripts.js"
+  ],
+  "styles": [
+    "ripts.css"
+  ],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 1,
+  "gridUnits": "squares",
+  "primaryTokenAttribute": "hits",
+  "initiative": "@edu > @enemy_edu"
+}
