@@ -1,0 +1,71 @@
+{
+  "Actor": {
+    "types": [
+      "character"
+    ],
+    "templates": {
+      "common": {
+        "abilities": {
+          "str": {
+            "value": "4d4"
+          },
+          "dex": {
+            "value": "4d4"
+          },
+          "con": {
+            "value": "4d4"
+          },
+          "edu": {
+            "value": "4d4"
+          },
+          "wil": {
+            "value": "4d4"
+          },
+          "cha": {
+            "value": "4d4"
+          }
+        },
+        "attributes": {
+          "hd": {
+            "value": "4d4"
+          },
+          "hp": {
+            "value": 5,
+            "min": 0,
+            "max": "1hd + @con + @level"
+          },
+          "ps": {
+            "value": 1
+          },
+          "pp": {
+            "value": 5,
+            "min": 0,
+            "max": "1ps + @wil + @level"
+          }
+        }
+      },
+      "character": {
+        "templates": [
+          "common"
+        ],
+        "homeworld": {
+          "hospitability": "high",
+          "tech": "high",
+          "law": "high"
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["weapon", "armour", "equipment"],
+    "templates": {
+      "itemInformation": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "weapon" : {
+      "templates": ["itemInformation"]
+    }
+  }
+}
