@@ -7,27 +7,34 @@
       "common": {
         "abilities": {
           "str": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "dex": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "con": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "edu": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "wil": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "cha": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           }
         },
         "attributes": {
           "hd": {
-            "value": "4d4"
+            "value": 4,
+            "die": 4
           },
           "hp": {
             "value": 5,
@@ -35,7 +42,8 @@
             "max": "1hd + @con + @level"
           },
           "ps": {
-            "value": 1
+            "value": 1,
+            "die": 4
           },
           "pp": {
             "value": 5,
@@ -49,10 +57,13 @@
           "common"
         ],
         "homeworld": {
+          "name": "Earth",
           "hospitability": "high",
           "tech": "high",
           "law": "high"
-        }
+        },
+        "species": "Human",
+        "look": "A generic biped, like a big ol' shaved monkey."
       }
     }
   },

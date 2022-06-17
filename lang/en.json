@@ -1,6 +1,14 @@
 {
   "riptsLang": {
     "general": {
+      "stats": {
+        "str": "STR",
+        "dex": "DEX",
+        "con": "CON",
+        "edu": "EDU",
+        "wil": "WIL",
+        "cha": "CHA"
+      },
       "rangeTags": {
         "close": "Close",
         "nearby": "Nearby",
@@ -33,6 +41,17 @@
         "range": "Range Type",
         "tags": "Tags",
         "ammo": "Ammo Type"
+      }
+    },
+    "characters": {
+      "information": {
+        "name": "Name",
+        "species": "Species",
+        "homeworld_name": "Homeworld",
+        "homeworld_hospitability": "Hospitability",
+        "homeworld_technology": "Technology",
+        "homeworld_law": "Law",
+        "look": "Look"
       }
     }
   }

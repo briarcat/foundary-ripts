@@ -1,7 +1,6 @@
 .sheet form {
   display: flex;
   flex-direction: column;
-  background-color: blue;
 }
 .sheet .sheet-content {
   height: 100%;
@@ -10,5 +9,36 @@
 }
 .sheet .sheet-content .editor {
   height: 100%;
+}
+.sheet .gradientContainer {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 50px;
+  background: linear-gradient(to bottom, #7927b2, #fb3182);
+}
+.sheet .container {
+  width: 95%;
+  height: 200px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  background: #fff;
+  display: flex;
+}
+.sheet .labelText {
+  font-size: 18pt;
+  font-weight: bold;
+  background: linear-gradient(to right, #7927b2, #fb3182);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 400px;
+  text-transform: uppercase;
+  line-height: 0.77;
+}
+.sheet .valueText {
+  font-size: 14pt;
+  font-weight: normal;
+  color: #000;
+  line-height: 0.77;
 }
 /*# sourceMappingURL=ripts.css.map */
